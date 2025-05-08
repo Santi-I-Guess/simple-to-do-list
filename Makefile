@@ -1,3 +1,3 @@
 
-all: main.c
-	gcc main.c -lncurses -o main
+final: main.c
+	gcc main.c -lncurses -lpanel -lmenu -o main
